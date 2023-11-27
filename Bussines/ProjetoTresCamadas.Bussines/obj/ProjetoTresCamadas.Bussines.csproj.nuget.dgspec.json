@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Bussines\\ProjetoTresCamadas.Bussines\\ProjetoTresCamadas.Bussines.csproj": {}
+  },
+  "projects": {
+    "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Bussines\\ProjetoTresCamadas.Bussines\\ProjetoTresCamadas.Bussines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Bussines\\ProjetoTresCamadas.Bussines\\ProjetoTresCamadas.Bussines.csproj",
+        "projectName": "ProjetoTresCamadas.Bussines",
+        "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Bussines\\ProjetoTresCamadas.Bussines\\ProjetoTresCamadas.Bussines.csproj",
+        "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
+        "outputPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Bussines\\ProjetoTresCamadas.Bussines\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-NuGet/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-PrecisionCare/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/UmNoveTres/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\ProjetosTresCamadas.Data.csproj": {
+                "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\ProjetosTresCamadas.Data.csproj"
+              },
+              "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj": {
+                "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\ProjetosTresCamadas.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\ProjetosTresCamadas.Data.csproj",
+        "projectName": "ProjetosTresCamadas.Data",
+        "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\ProjetosTresCamadas.Data.csproj",
+        "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
+        "outputPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\Database\\ProjetosTresCamadas.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-NuGet/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-PrecisionCare/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/UmNoveTres/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj": {
+                "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\DTO.csproj",
+        "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
+        "outputPath": "C:\\RepositoriosDTI\\ProjetoTresCamadas\\DTO\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-NuGet/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/HP-PrecisionCare/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hermespardinibrasil/_packaging/UmNoveTres/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
